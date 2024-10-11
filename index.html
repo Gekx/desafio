@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resumo Automático de Empresas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Resumo Automático de Empresas</h1>
+        <p>Insira o link de um site para gerar um resumo sobre o que a empresa faz.</p>
+
+        <form id="websiteForm">
+            <input type="url" id="websiteUrl" placeholder="Digite o link do site" required>
+            <button type="submit">Gerar Resumo</button>
+        </form>
+
+        <div id="resultado">
+            <h2>Resumo:</h2>
+            <p id="resumoTexto">Nenhum resumo gerado ainda.</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
